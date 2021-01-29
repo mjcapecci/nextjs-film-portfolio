@@ -1,0 +1,22 @@
+.video-container {
+  margin: 1rem;
+}
+
+.video-grid-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (max-width: 970px) {
+  .video-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
