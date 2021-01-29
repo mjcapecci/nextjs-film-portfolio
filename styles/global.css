@@ -92,6 +92,38 @@ nav .nav-links {
   margin: 0;
 }
 
+@media screen and (max-width: 920px) {
+  nav {
+    margin: 0rem 0rem 3rem 0rem;
+    flex-direction: column;
+    z-index: 1;
+  }
+
+  .nav-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-title-tag {
+    transform: translateY(-28px);
+    position: static;
+  }
+}
+
+@media screen and (max-width: 616px) {
+  .nav-logo {
+    font-size: 36px;
+  }
+}
+
+/* Footer */
+
+footer {
+  margin: 6rem 0 0 0;
+}
+
 .show-product-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

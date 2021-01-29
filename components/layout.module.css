@@ -8,7 +8,7 @@
   margin: 0rem auto 6rem;
 }
 
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 616px) {
   .container {
     max-width: 95%;
   }

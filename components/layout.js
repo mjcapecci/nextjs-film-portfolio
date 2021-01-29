@@ -2,6 +2,7 @@ import Head from 'next/head';
 import styles from './layout.module.css';
 import Link from 'next/link';
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 export const siteTitle = 'Lance Vlcek';
 
@@ -22,12 +23,6 @@ export default function Layout({ children, home }) {
         />
         <meta name='og:title' content={siteTitle} />
         <meta name='twitter:card' content='summary_large_image' />
-        <link rel='preconnect' href='https://fonts.gstatic.com' />
-        <link rel='preconnect' href='https://fonts.gstatic.com' />
-        <link
-          href='https://fonts.googleapis.com/css2?family=Roboto&family=Londrina+Outline&family=Monofett&display=swap'
-          rel='stylesheet'
-        />
       </Head>
       <Navbar />
       <header className={styles.header}></header>
@@ -39,6 +34,7 @@ export default function Layout({ children, home }) {
           </Link>
         </div>
       )}
+      <Footer />
     </div>
   );
 }
