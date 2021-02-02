@@ -8,6 +8,12 @@ body {
   color: #555;
 }
 
+p,
+li {
+  font-size: 16px;
+  line-height: 2rem;
+}
+
 h1 {
   color: #222;
 }
@@ -151,4 +157,67 @@ footer {
 
 .show-description {
   margin: 0 1rem;
+}
+
+/* Bio Page */
+
+.bio-section {
+  display: flex;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 6rem 0;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.bio-section .bio-section-picture {
+  margin-left: 3rem;
+}
+
+.bio-section .bio-section-text {
+  margin-right: 7rem;
+  display: flex;
+  justify-content: center;
+  min-height: 100%;
+  width: 28vw;
+  transform: translateX(-15px);
+  font-size: 16px;
+  line-height: 2rem;
+}
+
+@media screen and (max-width: 1350px) {
+  .bio-section .bio-section-picture {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: start;
+    margin-right: 3rem;
+  }
+
+  .bio-section .bio-section-text {
+    margin-left: 3rem;
+    display: flex;
+    justify-content: center;
+    min-height: 100%;
+    width: 50%;
+    transform: translateX(-0px);
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .bio-section {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  .bio-section .bio-section-picture {
+    height: auto;
+    min-height: 0px;
+  }
+
+  .bio-section .bio-section-text {
+    margin: 0.5rem 3rem;
+    width: 80%;
+  }
 }
