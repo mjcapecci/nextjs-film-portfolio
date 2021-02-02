@@ -20,7 +20,7 @@ export default function Home() {
       link: '/shows/making-of-with',
     },
     {
-      src: '/images/Sephora.jpg',
+      src: '/images/sephora.jpg',
       alt: 'Sephora',
       link: '/shows/sephora',
     },

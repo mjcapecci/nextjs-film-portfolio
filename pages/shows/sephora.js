@@ -17,7 +17,7 @@ export default function FirstPost() {
           src='/images/sephora.jpg'
           width={500}
           height={300}
-          alt={'The Black Sheep'}
+          alt={'Sephora'}
         ></Image>
       </div>
       <h1 className='show-title'>Sephora</h1>
