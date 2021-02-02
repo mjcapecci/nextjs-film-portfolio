@@ -14,7 +14,7 @@ export default function FirstPost() {
       </Head>
       <div className='show-image-container'>
         <Image
-          src='/images/sephora.jpg'
+          src='/images/sephora2.jpg'
           width={500}
           height={300}
           alt={'Sephora'}
