@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Image from 'next/image';
 import Layout from '../../components/layout';
 import VideoGrid from '../../components/VideoGrid';
 import ShowDescription from '../../components/ShowDescription';
@@ -28,12 +29,12 @@ export default function FirstPost() {
         <title>The Black Sheep | Lance Vlcek</title>
       </Head>
       <div className='show-image-container'>
-        <img
+        <Image
           src='/images/theBlackSheep.jpg'
           width={500}
           height={300}
           alt={'The Black Sheep'}
-        ></img>
+        ></Image>
       </div>
       <h1 className='show-title'>The Black Sheep</h1>
       <ShowDescription

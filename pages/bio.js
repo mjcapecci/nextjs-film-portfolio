@@ -1,6 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import Layout, { siteTitle } from '../components/layout';
+import Image from 'next/image';
 
 const Bio = () => {
   return (
@@ -37,12 +38,12 @@ const Bio = () => {
           </div>
         </div>
         <div className='bio-section-picture'>
-          <img
+          <Image
             src='/images/Lance.jpg'
             width={503.1}
             height={650}
             alt={'Lance Vlcek'}
-          ></img>
+          ></Image>
         </div>
       </section>
     </Layout>
