@@ -1,29 +1,21 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Link from 'next/link';
 
 const Navbar = () => {
-  const [activeTab, setActiveTab] = useState('Home');
-
   return (
     <nav>
       <div className='nav-logo'>
-        <h1>Lance Vlcek</h1>
+        <Link href='/'>
+          <h1 onClick>Lance Vlcek</h1>
+        </Link>
         <p className='nav-title-tag'>Editor, Director, Writer</p>
       </div>
 
       <div className='nav-links'>
-        <Link
-          href='/'
-          className={'nav-link'}
-          onClick={() => setActiveTab('Home')}
-        >
+        <Link href='/' className={'nav-link'}>
           HOME
         </Link>
-        <Link
-          href='/bio'
-          className='nav-link'
-          onClick={() => setActiveTab('Bio')}
-        >
+        <Link href='/bio' className='nav-link'>
           BIO
         </Link>
       </div>

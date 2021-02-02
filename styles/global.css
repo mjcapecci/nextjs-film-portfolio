@@ -29,6 +29,7 @@ body {
 a {
   color: #0070f3;
   text-decoration: none;
+  cursor: pointer;
 }
 
 a:hover {
@@ -63,6 +64,7 @@ nav {
   font-family: 'Monofett', cursive;
   font-size: 42px;
   position: relative;
+  cursor: pointer;
 }
 
 nav .nav-links {
@@ -135,6 +137,10 @@ footer {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 1rem;
   margin-top: 6rem;
+}
+
+.show-product-grid img {
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1075px) {
