@@ -117,10 +117,15 @@ nav .nav-links {
   .nav-title-tag {
     transform: translateY(-28px);
     position: static;
+    display: none;
   }
 }
 
 @media screen and (max-width: 616px) {
+  nav {
+    margin: 3rem 0rem 3rem 0rem;
+  }
+
   .nav-logo {
     font-size: 36px;
   }
