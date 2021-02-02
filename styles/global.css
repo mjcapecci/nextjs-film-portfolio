@@ -129,6 +129,10 @@ nav .nav-links {
   .nav-logo {
     font-size: 36px;
   }
+
+  .nav-links {
+    transform: translateY(30px);
+  }
 }
 
 /* Footer */
