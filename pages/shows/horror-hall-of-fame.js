@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Image from 'next/image';
 import Layout from '../../components/layout';
 import VideoGrid from '../../components/VideoGrid';
 import ShowDescription from '../../components/ShowDescription';
@@ -18,12 +17,12 @@ export default function FirstPost() {
         <title>Making Of With... | Lance Vlcek</title>
       </Head>
       <div className='show-image-container'>
-        <Image
+        <img
           src='/images/horrorHallOfFame.jpg'
           width={617}
           height={347}
           alt={'Horror Hall Of Fame'}
-        ></Image>
+        ></img>
       </div>
       <h1 className='show-title'>Horror Hall Of Fame</h1>
       <ShowDescription

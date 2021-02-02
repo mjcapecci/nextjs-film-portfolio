@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import useWindowSize from '../utils/useWindowSize';
 
 const ShowPicGrid = ({ images }) => {
@@ -31,7 +30,7 @@ const ShowPicGrid = ({ images }) => {
         <div className='show-product-grid'>
           {images.map((image) => (
             <Link href={image.link}>
-              <Image
+              <img
                 src={image.src}
                 width={embedSize.width}
                 height={embedSize.height}

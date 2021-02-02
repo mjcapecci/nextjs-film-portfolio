@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Image from 'next/image';
 import Layout from '../../components/layout';
 import VideoGrid from '../../components/VideoGrid';
 import ShowDescription from '../../components/ShowDescription';
@@ -24,12 +23,12 @@ export default function FirstPost() {
         <title>Making Of With... | Lance Vlcek</title>
       </Head>
       <div className='show-image-container'>
-        <Image
+        <img
           src='/images/makingOfWith.jpg'
           width={500}
           height={300}
           alt={'Making Of With...'}
-        ></Image>
+        ></img>
       </div>
       <h1 className='show-title'>Making Of With...</h1>
       <ShowDescription
