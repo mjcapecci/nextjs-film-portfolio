@@ -38,7 +38,7 @@ export default function FirstPost() {
       </div>
       <h1 className='show-title'>The Black Sheep</h1>
       <ShowDescription
-        date='November 2016 – Present'
+        date='2015 – Present'
         text={`THE BLACK SHEEP features different takes on horror films that the masses or/and critics didn't care for but that we found merit in. We defend horror movies that deserve more love with a bit of sarcasm and bite!`}
         contributions={[
           'Creating the logo and intro using After Effects',

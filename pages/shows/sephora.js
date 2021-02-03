@@ -5,7 +5,9 @@ import VideoGrid from '../../components/VideoGrid';
 import ShowDescription from '../../components/ShowDescription';
 
 export default function FirstPost() {
-  const videoLinks = [];
+  const videoLinks = [
+    { title: 'Sephora', link: 'https://www.youtube.com/embed/Vzs-j2Q2D6Q' },
+  ];
 
   return (
     <Layout>

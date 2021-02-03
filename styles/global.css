@@ -135,6 +135,12 @@ nav .nav-links {
   }
 }
 
+@media screen and (max-width: 375px) {
+  .nav-logo {
+    font-size: 30px;
+  }
+}
+
 /* Footer */
 
 footer {
