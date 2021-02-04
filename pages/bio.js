@@ -17,23 +17,24 @@ const Bio = () => {
               Born and raised in and around Chicago, I have loved the art of
               story-telling from an early age. Being a film fanatic most of my
               life, I thought the best way to grow my knowledge of the art was
-              to dive headfirst structure and flow. In 2014 I started online
-              classes and Youtube tutorials in my free time to develop my skills
-              as an editor. Utilizing Adobe's functionality, I eventually became
-              fluent in Premiere, After Effects Photoshop, and Audition.
+              to dive headfirst into structure and flow. In 2014 I started
+              online classes and Youtube tutorials in my free time to develop my
+              skills as an editor. Utilizing Adobe's functionality, I eventually
+              became fluent in Premiere, After Effects, Photoshop, and Audition.
             </p>
             <p>
               I have worked for JoBlo Media Inc. since 2016 and currently
-              produce three shows on their successful YoutTube channel, Joblo
-              Horror Videos., WTF Happened To That Horror Movie, The Black
-              Sheep, and The Best Horror Movie You Never saw. As a full-time
-              editor, writer, and showrunner, My job is to help others, set time
+              produce three shows on their successful YouTube channel, Joblo
+              Horror Videos: <i>WTF Happened To That Horror Movie</i>,{' '}
+              <i>The Black Sheep</i>, and{' '}
+              <i>The Best Horror Movie You Never Saw</i>. As a full-time editor,
+              writer, and showrunner, my job is to help others and set time
               tables with realistic and strategic goals. Editing is
               story-telling, and you must think about every angle to best
               communicate the idea and overcome any hurdle you may encounter. I
-              believe you must put your drive and passion first and deliver
-              quality and consistency at any cost. Life is too short not to give
-              it your all.
+              believe you must put drive and passion first and deliver quality
+              and consistency at any cost. Life is too short not to give your
+              all.
             </p>
           </div>
         </div>
